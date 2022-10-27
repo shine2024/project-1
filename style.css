@@ -1,0 +1,46 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Fraunces', serif;
+font-family: 'Montserrat', sans-serif;
+  color:white;
+}
+/* navigation */
+.div{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    position: relative;
+}
+/* logo and nav items */
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+#Logo img{
+    width: 180px;
+}
+.items a{
+    padding: 24px;
+    font-size: 27px;
+    text-decoration: none;
+    color: white;
+}
+.items a:hover, .items a:active{
+    padding: 24px;
+    font-size: 27px;
+    background-color: rgb(37, 181, 92);
+    border-radius: 25%;
+}
+div::before{
+    content: " ";
+    background-color: rgb(63, 63, 34);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
