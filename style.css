@@ -6,7 +6,7 @@ body{
 font-family: 'Montserrat', sans-serif;
   color:white;
 }
-/* navigation */
+/* navigation*/
 .div{
     display: flex;
     align-items: center;
@@ -17,8 +17,7 @@ font-family: 'Montserrat', sans-serif;
 ul{
     display: flex;
     list-style: none;
-    align-items: center;
-    
+    /* align-items: center; */
 }
 #Logo img{
     width: 180px;
@@ -43,4 +42,8 @@ div::before{
     height: 100%;
     z-index: -1;
     opacity: 0.5;
+}
+.nav ul{
+    align-items: center;
+    justify-content: center;
 }
